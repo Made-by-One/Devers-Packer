@@ -1,0 +1,60 @@
+{
+    "_name": "Русский",
+    "_code": "ru",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Упаковка игр в формат .dvp",
+
+    "section.info": "ИНФОРМАЦИЯ О ИГРЕ",
+    "section.cover": "ОБЛОЖКА",
+
+    "field.source": "Папка игры:",
+    "field.source_placeholder": "Папка с игрой...",
+    "field.name": "Название:",
+    "field.name_placeholder": "Название игры",
+    "field.exe": "Файл запуска:",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "НЕТ ОБЛОЖКИ\n240 × 175",
+    "cover.format_hint": "Формат: 240×175 px (PNG)\nРекомендуется выбирать картинку больше по размеру — обрезка автоматическая.",
+    "cover.status_none": "Обложка не выбрана",
+    "cover.status_ready": "Обложка готова ({w}×{h})",
+    "cover.pick": "Выбрать обложку",
+    "cover.clear": "Убрать",
+
+    "cover.crop_title": "Обрезка обложки",
+    "cover.crop_reset": "Сбросить",
+    "cover.crop_hint": "Тяни за края рамки. Колесо мыши — зум. Esc — отмена, Enter — ОК.",
+    "cover.crop_apply": "Применить",
+    "cover.crop_cancel": "Отмена",
+    "cover.crop_keep_ratio": "Сохранять пропорции 240:175",
+    "cover.crop_result": "Итог: {w}×{h} px",
+
+    "progress.ready": "Готов к упаковке",
+    "progress.packing": "Упаковка: {done}/{total}",
+    "progress.scanning": "Сканирование файлов...",
+    "progress.done": "Готово: {name} ({size})",
+    "progress.error": "Ошибка",
+
+    "pack.button": "📦  УПАКОВАТЬ В .DVP",
+    "pack.button_busy": "УПАКОВКА...",
+
+    "hint.source_size": "Исходный размер: {size}  •  Файл: output/{name}",
+
+    "dialog.done_title": "Готово",
+    "dialog.done_message": "Файл успешно создан!\n\n{name}\nРазмер: {size}",
+    "dialog.open_folder": "Открыть папку",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Ошибка",
+    "dialog.overwrite_title": "Перезапись",
+    "dialog.overwrite_msg": "Файл '{name}' уже существует.\nПерезаписать?",
+
+    "dialog.missing_exe_title": "Файл не найден",
+    "dialog.missing_exe_msg": "Файл '{exe}' не найден в папке игры.\nПродолжить упаковку?",
+
+    "dialog.missing_fields_title": "Ошибка",
+    "dialog.missing_fields_msg": "Заполни все обязательные поля!",
+
+    "crop.title": "Обрезка обложки"
+}
