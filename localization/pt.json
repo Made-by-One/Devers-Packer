@@ -1,0 +1,60 @@
+{
+    "_name": "Português",
+    "_code": "pt",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Empacotar jogos no formato .dvp",
+
+    "section.info": "INFORMAÇÕES DO JOGO",
+    "section.cover": "CAPA",
+
+    "field.source": "Pasta do jogo:",
+    "field.source_placeholder": "Pasta do jogo...",
+    "field.name": "Nome:",
+    "field.name_placeholder": "Nome do jogo",
+    "field.exe": "Executável:",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "SEM CAPA\n240 × 175",
+    "cover.format_hint": "Formato: 240×175 px (PNG)\nEscolha uma imagem maior — ela será cortada automaticamente.",
+    "cover.status_none": "Nenhuma capa selecionada",
+    "cover.status_ready": "Capa pronta ({w}×{h})",
+    "cover.pick": "Escolher capa",
+    "cover.clear": "Remover",
+
+    "cover.crop_title": "Cortar capa",
+    "cover.crop_reset": "Redefinir",
+    "cover.crop_hint": "Arraste as bordas para cortar. Roda do mouse para zoom. Esc — cancelar, Enter — aplicar.",
+    "cover.crop_apply": "Aplicar",
+    "cover.crop_cancel": "Cancelar",
+    "cover.crop_keep_ratio": "Manter proporção 240:175",
+    "cover.crop_result": "Resultado: {w}×{h} px",
+
+    "progress.ready": "Pronto para empacotar",
+    "progress.packing": "Empacotando: {done}/{total}",
+    "progress.scanning": "Escaneando arquivos...",
+    "progress.done": "Concluído: {name} ({size})",
+    "progress.error": "Erro",
+
+    "pack.button": "📦  EMPACOTAR EM .DVP",
+    "pack.button_busy": "EMPACOTANDO...",
+
+    "hint.source_size": "Tamanho original: {size}  •  Arquivo: output/{name}",
+
+    "dialog.done_title": "Concluído",
+    "dialog.done_message": "Arquivo criado com sucesso!\n\n{name}\nTamanho: {size}",
+    "dialog.open_folder": "Abrir pasta",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Erro",
+    "dialog.overwrite_title": "Sobrescrever",
+    "dialog.overwrite_msg": "O arquivo '{name}' já existe.\nSobrescrever?",
+
+    "dialog.missing_exe_title": "Arquivo não encontrado",
+    "dialog.missing_exe_msg": "Arquivo '{exe}' não encontrado na pasta do jogo.\nContinuar empacotando?",
+
+    "dialog.missing_fields_title": "Erro",
+    "dialog.missing_fields_msg": "Preencha todos os campos obrigatórios!",
+
+    "crop.title": "Cortar capa"
+}

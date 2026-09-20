@@ -1,0 +1,60 @@
+{
+    "_name": "Français",
+    "_code": "fr",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Empaqueter des jeux au format .dvp",
+
+    "section.info": "INFORMATIONS SUR LE JEU",
+    "section.cover": "COUVERTURE",
+
+    "field.source": "Dossier du jeu :",
+    "field.source_placeholder": "Dossier du jeu...",
+    "field.name": "Nom :",
+    "field.name_placeholder": "Nom du jeu",
+    "field.exe": "Exécutable :",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "PAS DE COUVERTURE\n240 × 175",
+    "cover.format_hint": "Format : 240×175 px (PNG)\nChoisissez une image plus grande — elle sera rognée automatiquement.",
+    "cover.status_none": "Aucune couverture sélectionnée",
+    "cover.status_ready": "Couverture prête ({w}×{h})",
+    "cover.pick": "Choisir une couverture",
+    "cover.clear": "Retirer",
+
+    "cover.crop_title": "Rogner la couverture",
+    "cover.crop_reset": "Réinitialiser",
+    "cover.crop_hint": "Faites glisser les bords pour rogner. Molette pour zoomer. Échap — annuler, Entrée — appliquer.",
+    "cover.crop_apply": "Appliquer",
+    "cover.crop_cancel": "Annuler",
+    "cover.crop_keep_ratio": "Conserver le ratio 240:175",
+    "cover.crop_result": "Résultat : {w}×{h} px",
+
+    "progress.ready": "Prêt à empaqueter",
+    "progress.packing": "Empaquetage : {done}/{total}",
+    "progress.scanning": "Analyse des fichiers...",
+    "progress.done": "Terminé : {name} ({size})",
+    "progress.error": "Erreur",
+
+    "pack.button": "📦  EMPAQUETER EN .DVP",
+    "pack.button_busy": "EMPAQUETAGE...",
+
+    "hint.source_size": "Taille source : {size}  •  Fichier : output/{name}",
+
+    "dialog.done_title": "Terminé",
+    "dialog.done_message": "Fichier créé avec succès !\n\n{name}\nTaille : {size}",
+    "dialog.open_folder": "Ouvrir le dossier",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Erreur",
+    "dialog.overwrite_title": "Écraser",
+    "dialog.overwrite_msg": "Le fichier '{name}' existe déjà.\nÉcraser ?",
+
+    "dialog.missing_exe_title": "Fichier introuvable",
+    "dialog.missing_exe_msg": "Fichier '{exe}' introuvable dans le dossier du jeu.\nContinuer l'empaquetage ?",
+
+    "dialog.missing_fields_title": "Erreur",
+    "dialog.missing_fields_msg": "Remplissez tous les champs obligatoires !",
+
+    "crop.title": "Rogner la couverture"
+}

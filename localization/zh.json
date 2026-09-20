@@ -1,0 +1,60 @@
+{
+    "_name": "简体中文",
+    "_code": "zh",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "将游戏打包为 .dvp 格式",
+
+    "section.info": "游戏信息",
+    "section.cover": "封面",
+
+    "field.source": "游戏文件夹：",
+    "field.source_placeholder": "游戏文件夹...",
+    "field.name": "名称：",
+    "field.name_placeholder": "游戏名称",
+    "field.exe": "启动文件：",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "无封面\n240 × 175",
+    "cover.format_hint": "格式：240×175 px (PNG)\n建议选择更大的图片 — 会自动裁剪。",
+    "cover.status_none": "未选择封面",
+    "cover.status_ready": "封面已就绪（{w}×{h}）",
+    "cover.pick": "选择封面",
+    "cover.clear": "移除",
+
+    "cover.crop_title": "裁剪封面",
+    "cover.crop_reset": "重置",
+    "cover.crop_hint": "拖动边缘进行裁剪。滚轮缩放。Esc — 取消，Enter — 确定。",
+    "cover.crop_apply": "应用",
+    "cover.crop_cancel": "取消",
+    "cover.crop_keep_ratio": "保持 240:175 比例",
+    "cover.crop_result": "结果：{w}×{h} px",
+
+    "progress.ready": "准备打包",
+    "progress.packing": "打包中：{done}/{total}",
+    "progress.scanning": "正在扫描文件...",
+    "progress.done": "完成：{name}（{size}）",
+    "progress.error": "错误",
+
+    "pack.button": "📦  打包为 .DVP",
+    "pack.button_busy": "打包中...",
+
+    "hint.source_size": "原始大小：{size}  •  文件：output/{name}",
+
+    "dialog.done_title": "完成",
+    "dialog.done_message": "文件创建成功！\n\n{name}\n大小：{size}",
+    "dialog.open_folder": "打开文件夹",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "错误",
+    "dialog.overwrite_title": "覆盖",
+    "dialog.overwrite_msg": "文件“{name}”已存在。\n是否覆盖？",
+
+    "dialog.missing_exe_title": "文件未找到",
+    "dialog.missing_exe_msg": "在游戏文件夹中未找到文件“{exe}”。\n继续打包？",
+
+    "dialog.missing_fields_title": "错误",
+    "dialog.missing_fields_msg": "请填写所有必填字段！",
+
+    "crop.title": "裁剪封面"
+}

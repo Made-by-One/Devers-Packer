@@ -1,0 +1,60 @@
+{
+    "_name": "Deutsch",
+    "_code": "de",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Spiele ins .dvp-Format packen",
+
+    "section.info": "SPIELINFORMATIONEN",
+    "section.cover": "COVER",
+
+    "field.source": "Spielordner:",
+    "field.source_placeholder": "Spielordner...",
+    "field.name": "Name:",
+    "field.name_placeholder": "Spielname",
+    "field.exe": "Ausführbare Datei:",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "KEIN COVER\n240 × 175",
+    "cover.format_hint": "Format: 240×175 px (PNG)\nWähle ein größeres Bild — es wird automatisch zugeschnitten.",
+    "cover.status_none": "Kein Cover ausgewählt",
+    "cover.status_ready": "Cover bereit ({w}×{h})",
+    "cover.pick": "Cover wählen",
+    "cover.clear": "Entfernen",
+
+    "cover.crop_title": "Cover zuschneiden",
+    "cover.crop_reset": "Zurücksetzen",
+    "cover.crop_hint": "Ziehe an den Rändern zum Zuschneiden. Mausrad zum Zoomen. Esc — abbrechen, Enter — übernehmen.",
+    "cover.crop_apply": "Übernehmen",
+    "cover.crop_cancel": "Abbrechen",
+    "cover.crop_keep_ratio": "Verhältnis 240:175 beibehalten",
+    "cover.crop_result": "Ergebnis: {w}×{h} px",
+
+    "progress.ready": "Bereit zum Packen",
+    "progress.packing": "Packen: {done}/{total}",
+    "progress.scanning": "Dateien werden gescannt...",
+    "progress.done": "Fertig: {name} ({size})",
+    "progress.error": "Fehler",
+
+    "pack.button": "📦  IN .DVP PACKEN",
+    "pack.button_busy": "PACKEN...",
+
+    "hint.source_size": "Quellgröße: {size}  •  Datei: output/{name}",
+
+    "dialog.done_title": "Fertig",
+    "dialog.done_message": "Datei erfolgreich erstellt!\n\n{name}\nGröße: {size}",
+    "dialog.open_folder": "Ordner öffnen",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Fehler",
+    "dialog.overwrite_title": "Überschreiben",
+    "dialog.overwrite_msg": "Datei '{name}' existiert bereits.\nÜberschreiben?",
+
+    "dialog.missing_exe_title": "Datei nicht gefunden",
+    "dialog.missing_exe_msg": "Datei '{exe}' nicht im Spielordner gefunden.\nPacken fortsetzen?",
+
+    "dialog.missing_fields_title": "Fehler",
+    "dialog.missing_fields_msg": "Fülle alle erforderlichen Felder aus!",
+
+    "crop.title": "Cover zuschneiden"
+}

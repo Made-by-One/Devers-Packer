@@ -1,0 +1,60 @@
+{
+    "_name": "Українська",
+    "_code": "uk",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Пакування ігор у формат .dvp",
+
+    "section.info": "ІНФОРМАЦІЯ ПРО ГРУ",
+    "section.cover": "ОБКЛАДИНКА",
+
+    "field.source": "Папка гри:",
+    "field.source_placeholder": "Папка з грою...",
+    "field.name": "Назва:",
+    "field.name_placeholder": "Назва гри",
+    "field.exe": "Файл запуску:",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "НЕМАЄ ОБКЛАДИНКИ\n240 × 175",
+    "cover.format_hint": "Формат: 240×175 px (PNG)\nРекомендується обирати зображення більшого розміру — обрізка автоматична.",
+    "cover.status_none": "Обкладинку не вибрано",
+    "cover.status_ready": "Обкладинка готова ({w}×{h})",
+    "cover.pick": "Вибрати обкладинку",
+    "cover.clear": "Прибрати",
+
+    "cover.crop_title": "Обрізка обкладинки",
+    "cover.crop_reset": "Скинути",
+    "cover.crop_hint": "Тягни за краї рамки. Колесо миші — зум. Esc — скасувати, Enter — застосувати.",
+    "cover.crop_apply": "Застосувати",
+    "cover.crop_cancel": "Скасувати",
+    "cover.crop_keep_ratio": "Зберігати пропорції 240:175",
+    "cover.crop_result": "Результат: {w}×{h} px",
+
+    "progress.ready": "Готовий до пакування",
+    "progress.packing": "Пакування: {done}/{total}",
+    "progress.scanning": "Сканування файлів...",
+    "progress.done": "Готово: {name} ({size})",
+    "progress.error": "Помилка",
+
+    "pack.button": "📦  ПАКУВАТИ У .DVP",
+    "pack.button_busy": "ПАКУВАННЯ...",
+
+    "hint.source_size": "Початковий розмір: {size}  •  Файл: output/{name}",
+
+    "dialog.done_title": "Готово",
+    "dialog.done_message": "Файл успішно створено!\n\n{name}\nРозмір: {size}",
+    "dialog.open_folder": "Відкрити папку",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Помилка",
+    "dialog.overwrite_title": "Перезапис",
+    "dialog.overwrite_msg": "Файл '{name}' вже існує.\nПерезаписати?",
+
+    "dialog.missing_exe_title": "Файл не знайдено",
+    "dialog.missing_exe_msg": "Файл '{exe}' не знайдено в папці гри.\nПродовжити пакування?",
+
+    "dialog.missing_fields_title": "Помилка",
+    "dialog.missing_fields_msg": "Заповни всі обов'язкові поля!",
+
+    "crop.title": "Обрізка обкладинки"
+}

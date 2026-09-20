@@ -1,0 +1,60 @@
+{
+    "_name": "Español",
+    "_code": "es",
+
+    "app.title": "Devers Packer",
+    "app.subtitle": "Empaqueta juegos en formato .dvp",
+
+    "section.info": "INFORMACIÓN DEL JUEGO",
+    "section.cover": "PORTADA",
+
+    "field.source": "Carpeta del juego:",
+    "field.source_placeholder": "Carpeta del juego...",
+    "field.name": "Nombre:",
+    "field.name_placeholder": "Nombre del juego",
+    "field.exe": "Ejecutable:",
+    "field.exe_placeholder": "Game.exe",
+
+    "cover.none": "SIN PORTADA\n240 × 175",
+    "cover.format_hint": "Formato: 240×175 px (PNG)\nElige una imagen más grande — se recortará automáticamente.",
+    "cover.status_none": "Ninguna portada seleccionada",
+    "cover.status_ready": "Portada lista ({w}×{h})",
+    "cover.pick": "Elegir portada",
+    "cover.clear": "Quitar",
+
+    "cover.crop_title": "Recortar portada",
+    "cover.crop_reset": "Restablecer",
+    "cover.crop_hint": "Arrastra los bordes para recortar. Rueda para hacer zoom. Esc — cancelar, Enter — aplicar.",
+    "cover.crop_apply": "Aplicar",
+    "cover.crop_cancel": "Cancelar",
+    "cover.crop_keep_ratio": "Mantener proporción 240:175",
+    "cover.crop_result": "Resultado: {w}×{h} px",
+
+    "progress.ready": "Listo para empaquetar",
+    "progress.packing": "Empaquetando: {done}/{total}",
+    "progress.scanning": "Escaneando archivos...",
+    "progress.done": "Listo: {name} ({size})",
+    "progress.error": "Error",
+
+    "pack.button": "📦  EMPAQUETAR EN .DVP",
+    "pack.button_busy": "EMPAQUETANDO...",
+
+    "hint.source_size": "Tamaño original: {size}  •  Archivo: output/{name}",
+
+    "dialog.done_title": "Listo",
+    "dialog.done_message": "¡Archivo creado correctamente!\n\n{name}\nTamaño: {size}",
+    "dialog.open_folder": "Abrir carpeta",
+    "dialog.ok": "OK",
+
+    "dialog.error_title": "Error",
+    "dialog.overwrite_title": "Sobrescribir",
+    "dialog.overwrite_msg": "El archivo '{name}' ya existe.\n¿Sobrescribir?",
+
+    "dialog.missing_exe_title": "Archivo no encontrado",
+    "dialog.missing_exe_msg": "Archivo '{exe}' no encontrado en la carpeta del juego.\n¿Continuar empaquetando?",
+
+    "dialog.missing_fields_title": "Error",
+    "dialog.missing_fields_msg": "¡Completa todos los campos obligatorios!",
+
+    "crop.title": "Recortar portada"
+}
