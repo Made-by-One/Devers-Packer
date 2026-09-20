@@ -3,7 +3,7 @@
 A lightweight packer that turns any game folder into a single `.dvp` archive — ready to be run by [Devers Launcher](https://github.com/Made-by-One/Devers-Launcher).
 
 ![Platform](https://img.shields.io/badge/platform-Windows-white)
-[![Release](https://img.shields.io/badge/release-v1.0-white)](https://github.com/Made-by-One/Devers-Packer/releases)
+[![Release](https://img.shields.io/badge/release-v1.1-white)](https://github.com/Made-by-One/Devers-Packer/releases)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 [![Made by](https://img.shields.io/badge/Made%20by%20One%20Studio-black)](#)
 
@@ -46,23 +46,6 @@ Manifest example:
 
 ---
 
-## 🌐 Localization
-
-All UI strings live in `localization/*.json`. English is the base; missing keys fall back to `en.json` automatically.
-
-Currently supported:
-- 🇬🇧 English (`en.json`)
-
-**Add your language:**
-
-1. Copy `localization/en.json` to `localization/<code>.json` (e.g. `de.json`).
-2. Change `_name` to the native language name (`"Deutsch"`).
-3. Change `_code` to the language code (`"de"`).
-4. Translate any keys you want — untranslated ones fall back to English.
-5. Relaunch the app — the language will appear in the dropdown.
-
----
-
 ## 🧱 Two ways to use
 
 ### Option 1 — Ready-to-use `.exe` (recommended)
@@ -90,20 +73,6 @@ python packer.py
 PyQt6>=6.6.0
 ```
 
----
-
-## 📂 Project structure
-
-```
-Devers-Packer/
-├── LICENSE
-├── README.md
-├── requirements.txt
-├── app.ico
-├── packer.py
-└── localization/
-    └── en.json
-```
 
 ---
 
